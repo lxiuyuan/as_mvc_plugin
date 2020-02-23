@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="290ef6ec-b18d-4b78-b9f5-3bd7f1e5677a" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Kotlin Class" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectId" id="1WvUkDuifRQjpPBREXCVmE6vxFS" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="com.flutter.mvc.ui" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib" />
+      <recent name="$PROJECT_DIR$/resources/META-INF/image" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Plugin" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="flutter_mvc" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="flutter_mvc" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="290ef6ec-b18d-4b78-b9f5-3bd7f1e5677a" name="Default Changelist" comment="" />
+      <created>1580029702062</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580029702062</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="490" y="157" key="#com.intellij.ide.util.MemberChooser" timestamp="1580711500063">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="490" y="157" key="#com.intellij.ide.util.MemberChooser/0.23.1440.797@0.23.1440.797" timestamp="1580711500063" />
+    <state width="1398" height="287" key="GridCell.Tab.0.bottom" timestamp="1582367085545">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state width="1398" height="287" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1582367085545" />
+    <state width="1398" height="287" key="GridCell.Tab.0.center" timestamp="1582367085545">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state width="1398" height="287" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1582367085545" />
+    <state width="1398" height="287" key="GridCell.Tab.0.left" timestamp="1582367085544">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state width="1398" height="287" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1582367085544" />
+    <state width="1398" height="287" key="GridCell.Tab.0.right" timestamp="1582367085545">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state width="1398" height="287" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1582367085545" />
+    <state width="1398" height="287" key="GridCell.Tab.1.bottom" timestamp="1582367085547">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state width="1398" height="287" key="GridCell.Tab.1.bottom/0.23.1440.797@0.23.1440.797" timestamp="1582367085547" />
+    <state width="1398" height="287" key="GridCell.Tab.1.center" timestamp="1582367085546">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state width="1398" height="287" key="GridCell.Tab.1.center/0.23.1440.797@0.23.1440.797" timestamp="1582367085546" />
+    <state width="1398" height="287" key="GridCell.Tab.1.left" timestamp="1582367085546">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state width="1398" height="287" key="GridCell.Tab.1.left/0.23.1440.797@0.23.1440.797" timestamp="1582367085546" />
+    <state width="1398" height="287" key="GridCell.Tab.1.right" timestamp="1582367085546">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state width="1398" height="287" key="GridCell.Tab.1.right/0.23.1440.797@0.23.1440.797" timestamp="1582367085546" />
+    <state x="229" y="60" key="SettingsEditor" timestamp="1581493641310">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="229" y="60" key="SettingsEditor/0.23.1440.797@0.23.1440.797" timestamp="1581493641310" />
+    <state x="591" y="224" key="UIDesigner.ListEditorDialog" timestamp="1580370812043">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="591" y="224" key="UIDesigner.ListEditorDialog/0.23.1440.797@0.23.1440.797" timestamp="1580370812043" />
+  </component>
+</project>

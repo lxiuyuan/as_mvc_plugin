@@ -1,0 +1,50 @@
+<idea-plugin>
+  <id>com.hz.flutter.mvc.plugin</id>
+  <name>flutter mvc</name>
+  <version>1.0</version>
+  <vendor email="424047673@qq.com" url="http://www.baidu.com">djy</vendor>
+
+  <description><![CDATA[
+      Enter short description sfsfsfsfsfsfsfsfsfsfs your plugin here.<br>
+      <em>most HTML tags madfsfsfsy be used</em>
+    ]]></description>
+
+  <change-notes><![CDATA[
+      Add change notes dfdsfsfhere.<br>
+      <em>most HTML tsfsfsdfags may be used</em>
+    ]]>
+  </change-notes>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+  <idea-version since-build="173.0"/>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+       on how to target different products -->
+  <depends>com.intellij.modules.platform</depends>
+  <depends>com.intellij.modules.lang</depends>
+  <depends>com.intellij.modules.all</depends>
+  <extensions defaultExtensionNs="com.intellij">
+    <!-- Add your extensions here -->
+  </extensions>
+
+  <actions>
+    <action id="com.flutter.mvc.action.NewMenuAction" class="com.flutter.mvc.action.NewMenuAction" text="FlutterMvc.ID"
+            icon="/image/wsy.png"
+            description="flutter mvc">
+      <add-to-group group-id="NewGroup" anchor="before" relative-to-action="NewFile"/>
+    </action>
+  </actions>
+
+<!--  <project-components>-->
+<!--    <component>-->
+<!--      <implementation-class>com.flutter.mvc.action.CodePlugin</implementation-class>-->
+<!--    </component>-->
+<!--  </project-components>-->
+
+  <extensions defaultExtensionNs="com.intellij">
+    <toolWindow icon="/image/wsy.png" id="mvc list" anchor="right" factoryClass="com.flutter.mvc.action.list.ListFactory"/>
+    <projectService serviceImplementation="com.flutter.mvc.action.list.ListControllerView" overrides="false"/>
+  </extensions>
+
+
+</idea-plugin>
