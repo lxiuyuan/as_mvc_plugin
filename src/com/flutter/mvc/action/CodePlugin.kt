@@ -17,6 +17,7 @@ import com.intellij.psi.PsiDirectory
 import com.intellij.psi.PsiFile
 import com.intellij.psi.PsiManager
 import com.intellij.psi.impl.file.PsiDirectoryFactory
+import com.intellij.testFramework.runInLoadComponentStateMode
 import com.sun.jna.platform.win32.Winsvc
 import org.jetbrains.builtInWebServer.findIndexFile
 import java.nio.file.Path
@@ -30,12 +31,15 @@ class CodePlugin(private var project: Project):ProjectComponent {
 
 
 //
-        project.runWhenProjectOpened(object:Runnable{
-            override fun run() {
-                init()
-            }
-
-        })
+        project.runInLoadComponentStateMode {
+            init()
+        }
+//        project.runWhenProjectOpened(object:Runnable{
+//            override fun run() {
+//                init()
+//            }
+//
+//        })
 
 
 

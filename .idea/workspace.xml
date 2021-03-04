@@ -1,7 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="290ef6ec-b18d-4b78-b9f5-3bd7f1e5677a" name="Default Changelist" comment="" />
+    <list default="true" id="290ef6ec-b18d-4b78-b9f5-3bd7f1e5677a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/flutter/mvc/common/element/Element.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flutter_mvc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/flutter_mvc.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/flutter_mvc/META-INF/flutter_mvc.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/flutter_mvc/META-INF/flutter_mvc.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/action/CodePlugin$initComponent$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/action/CodePlugin.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/action/CodePlugin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/action/NewMenuAction$actionPerformed$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/action/NewMenuAction$actionPerformed$1$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/action/NewMenuAction$actionPerformed$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/action/NewMenuAction$actionPerformed$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/action/NewMenuAction$actionPerformed$directory$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/action/NewMenuAction$actionPerformed$directory$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/action/NewMenuAction$createFile$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/action/NewMenuAction$createFile$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/action/NewMenuAction$createFile$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/action/NewMenuAction$createFile$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/action/NewMenuAction$createFile$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/action/NewMenuAction$createFile$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/action/NewMenuAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/action/NewMenuAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/action/list/ListControllerComponent$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/action/list/ListControllerComponent$Companion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/action/list/ListControllerComponent.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/action/list/ListControllerComponent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/action/list/ListControllerView$initToolWindow$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/action/list/ListControllerView$initToolWindow$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/action/list/ListControllerView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/action/list/ListControllerView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/action/list/ListControllerViewState.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/action/list/ListControllerViewState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/action/list/ListFactory$createToolWindowContent$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/action/list/ListFactory$createToolWindowContent$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/action/list/ListFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/action/list/ListFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/common/manager/RefreshListManager$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/common/manager/RefreshListManager$Companion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/common/manager/RefreshListManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/common/manager/RefreshListManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/common/utils/ClassUtils$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/common/utils/ClassUtils$Companion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/common/utils/ClassUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/common/utils/ClassUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/common/utils/StringUtils$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/common/utils/StringUtils$Companion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/common/utils/StringUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/common/utils/StringUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/model/ControllerInfoModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/model/ControllerInfoModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/ui/CreateView$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/ui/CreateView$Companion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/ui/CreateView$initListener$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/ui/CreateView$initListener$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/ui/CreateView$initListener$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/ui/CreateView$initListener$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/ui/CreateView$initListener$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/ui/CreateView$initListener$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/ui/CreateView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/ui/CreateView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/ui/Left$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/ui/Left$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/ui/Left$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/ui/Left$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/ui/Left$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/ui/Left$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/ui/Left$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/ui/Left$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/ui/Left.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/ui/Left.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/ui/ListControllerViewz$initListener$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/ui/ListControllerViewz$initListener$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/ui/ListControllerViewz$initListener$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/ui/ListControllerViewz$initListener$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/ui/ListControllerViewz$initListener$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/ui/ListControllerViewz$initListener$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/ui/ListControllerViewz$initListener$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/ui/ListControllerViewz$initListener$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/ui/ListControllerViewz$initListener$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/ui/ListControllerViewz$initListener$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/ui/ListControllerViewz.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/ui/ListControllerViewz.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/ui/OverrideView$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/ui/OverrideView$Companion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/ui/OverrideView$initListener$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/ui/OverrideView$initListener$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/ui/OverrideView$initListener$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/ui/OverrideView$initListener$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/ui/OverrideView$initListener$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/ui/OverrideView$initListener$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/ui/OverrideView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/ui/OverrideView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/flutter_mvc/com/intellij/uiDesigner/core/AbstractLayout.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/flutter_mvc/com/intellij/uiDesigner/core/AbstractLayout.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/flutter_mvc/com/intellij/uiDesigner/core/DimensionInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/flutter_mvc/com/intellij/uiDesigner/core/DimensionInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/flutter_mvc/com/intellij/uiDesigner/core/GridConstraints.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/flutter_mvc/com/intellij/uiDesigner/core/GridConstraints.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/flutter_mvc/com/intellij/uiDesigner/core/GridLayoutManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/flutter_mvc/com/intellij/uiDesigner/core/GridLayoutManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/flutter_mvc/com/intellij/uiDesigner/core/HorizontalInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/flutter_mvc/com/intellij/uiDesigner/core/HorizontalInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/flutter_mvc/com/intellij/uiDesigner/core/LayoutState.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/flutter_mvc/com/intellij/uiDesigner/core/LayoutState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/flutter_mvc/com/intellij/uiDesigner/core/Spacer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/flutter_mvc/com/intellij/uiDesigner/core/Spacer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/flutter_mvc/com/intellij/uiDesigner/core/SupportCode$TextWithMnemonic.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/flutter_mvc/com/intellij/uiDesigner/core/SupportCode$TextWithMnemonic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/flutter_mvc/com/intellij/uiDesigner/core/SupportCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/flutter_mvc/com/intellij/uiDesigner/core/SupportCode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/flutter_mvc/com/intellij/uiDesigner/core/Util.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/flutter_mvc/com/intellij/uiDesigner/core/Util.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/flutter_mvc/com/intellij/uiDesigner/core/VerticalInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/flutter_mvc/com/intellij/uiDesigner/core/VerticalInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/flutter/mvc/action/CodePlugin.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/flutter/mvc/action/CodePlugin.kt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +80,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
@@ -25,14 +93,19 @@
   <component name="ProjectId" id="1WvUkDuifRQjpPBREXCVmE6vxFS" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="preferences.language.Kotlin" />
   </component>
   <component name="RecentsManager">
     <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
@@ -66,6 +139,7 @@
       </method>
     </configuration>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -79,50 +153,20 @@
     </task>
     <servers />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="490" y="157" key="#com.intellij.ide.util.MemberChooser" timestamp="1580711500063">
-      <screen x="0" y="23" width="1440" height="797" />
-    </state>
-    <state x="490" y="157" key="#com.intellij.ide.util.MemberChooser/0.23.1440.797@0.23.1440.797" timestamp="1580711500063" />
-    <state width="1398" height="287" key="GridCell.Tab.0.bottom" timestamp="1582367085545">
-      <screen x="0" y="23" width="1440" height="797" />
-    </state>
-    <state width="1398" height="287" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1582367085545" />
-    <state width="1398" height="287" key="GridCell.Tab.0.center" timestamp="1582367085545">
-      <screen x="0" y="23" width="1440" height="797" />
-    </state>
-    <state width="1398" height="287" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1582367085545" />
-    <state width="1398" height="287" key="GridCell.Tab.0.left" timestamp="1582367085544">
-      <screen x="0" y="23" width="1440" height="797" />
-    </state>
-    <state width="1398" height="287" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1582367085544" />
-    <state width="1398" height="287" key="GridCell.Tab.0.right" timestamp="1582367085545">
-      <screen x="0" y="23" width="1440" height="797" />
-    </state>
-    <state width="1398" height="287" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1582367085545" />
-    <state width="1398" height="287" key="GridCell.Tab.1.bottom" timestamp="1582367085547">
-      <screen x="0" y="23" width="1440" height="797" />
-    </state>
-    <state width="1398" height="287" key="GridCell.Tab.1.bottom/0.23.1440.797@0.23.1440.797" timestamp="1582367085547" />
-    <state width="1398" height="287" key="GridCell.Tab.1.center" timestamp="1582367085546">
-      <screen x="0" y="23" width="1440" height="797" />
-    </state>
-    <state width="1398" height="287" key="GridCell.Tab.1.center/0.23.1440.797@0.23.1440.797" timestamp="1582367085546" />
-    <state width="1398" height="287" key="GridCell.Tab.1.left" timestamp="1582367085546">
-      <screen x="0" y="23" width="1440" height="797" />
-    </state>
-    <state width="1398" height="287" key="GridCell.Tab.1.left/0.23.1440.797@0.23.1440.797" timestamp="1582367085546" />
-    <state width="1398" height="287" key="GridCell.Tab.1.right" timestamp="1582367085546">
-      <screen x="0" y="23" width="1440" height="797" />
-    </state>
-    <state width="1398" height="287" key="GridCell.Tab.1.right/0.23.1440.797@0.23.1440.797" timestamp="1582367085546" />
-    <state x="229" y="60" key="SettingsEditor" timestamp="1581493641310">
-      <screen x="0" y="23" width="1440" height="797" />
-    </state>
-    <state x="229" y="60" key="SettingsEditor/0.23.1440.797@0.23.1440.797" timestamp="1581493641310" />
-    <state x="591" y="224" key="UIDesigner.ListEditorDialog" timestamp="1580370812043">
-      <screen x="0" y="23" width="1440" height="797" />
-    </state>
-    <state x="591" y="224" key="UIDesigner.ListEditorDialog/0.23.1440.797@0.23.1440.797" timestamp="1580370812043" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
