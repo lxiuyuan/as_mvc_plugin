@@ -6,21 +6,15 @@ open class Element {
     var endLine: Int = 0
     var name: String = ""
     var text=""
+    var annotation=""
 
 
-}
-
-class FileElement{
-    var imports=ArrayList<String>()
-    var fields=ArrayList<FieldElement>()
-    var methods=ArrayList<MethodElement>()
-    var classElement=ArrayList<MethodElement>()
 }
 
 class ClassElement : Element() {
     var fields=ArrayList<FieldElement>()
     var methods=ArrayList<MethodElement>()
-    var getters=ArrayList<MethodElement>()
+    var getters=ArrayList<FieldElement>()
     var setters=ArrayList<MethodElement>()
 }
 
@@ -36,7 +30,7 @@ class SetterElement:Element(){
 }
 
 class MethodElement : Element() {
-    var line=0
+    var body=""
 }
 
 //class MethodBodyElement{

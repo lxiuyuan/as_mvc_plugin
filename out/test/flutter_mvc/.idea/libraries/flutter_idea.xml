@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="flutter-idea">
+    <CLASSES />
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/flutter-idea" />
+      <root url="file://$PROJECT_DIR$/flutter-idea/gen" />
+      <root url="file://$PROJECT_DIR$/flutter-idea/src/main/java" />
+    </SOURCES>
+  </library>
+</component>

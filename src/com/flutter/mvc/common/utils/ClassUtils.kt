@@ -1,5 +1,6 @@
 package com.flutter.mvc.common.utils
 
+import java.lang.Exception
 import java.lang.StringBuilder
 
 class ClassUtils {
@@ -8,19 +9,26 @@ class ClassUtils {
         fun getPara(clazz:String):String{
             val startIndex=clazz.indexOf("(")
             val endIndex=clazz.indexOf(")")
-            var para=clazz.substring(startIndex+1,endIndex)
-            if(para.contains("{")){
-                para=para.substring(1,para.length-1)
+            try {
+                var para = clazz.substring(startIndex + 1, endIndex)
+                if(para.contains("{")){
+                    para=para.substring(1,para.length-1)
+                }
+                val names=getParaName(para)
+                if(names.size==0){
+                    return "暂无";
+                }
+                val sb=StringBuilder(names[0])
+                for (index in 1..names.size-1) {
+                    sb.append(","+names[index])
+                }
+                return sb.toString()
+            }catch (e:Exception){
+
+                println(clazz)
             }
-            val names=getParaName(para)
-            if(names.size==0){
-                return "暂无";
-            }
-            val sb=StringBuilder(names[0])
-            for (index in 1..names.size-1) {
-                sb.append(","+names[index])
-            }
-            return sb.toString()
+            return "";
+
         }
         private fun getParaName(para:String):List<String>{
             val names=ArrayList<String>()

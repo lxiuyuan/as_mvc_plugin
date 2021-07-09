@@ -1,39 +1,26 @@
 package com.flutter.mvc.action
 
+import com.flutter.mvc.common.Config
 import com.flutter.mvc.model.ControllerInfoModel
 import com.intellij.openapi.actionSystem.LangDataKeys
 import com.intellij.openapi.actionSystem.PlatformDataKeys
+import com.intellij.openapi.application.ApplicationManager
+import com.intellij.openapi.application.ex.ApplicationUtil
 import com.intellij.openapi.components.ProjectComponent
-import com.intellij.openapi.editor.Editor
-import com.intellij.openapi.editor.actionSystem.EditorActionManager
-import com.intellij.openapi.fileEditor.FileEditorManager
-import com.intellij.openapi.project.Project
-import com.intellij.openapi.project.guessProjectDir
-import com.intellij.openapi.project.runWhenProjectOpened
-import com.intellij.openapi.vfs.VirtualFile
-import com.intellij.openapi.vfs.VirtualFileManager
-import com.intellij.psi.PsiClass
+import com.intellij.openapi.project.*
 import com.intellij.psi.PsiDirectory
 import com.intellij.psi.PsiFile
 import com.intellij.psi.PsiManager
-import com.intellij.psi.impl.file.PsiDirectoryFactory
 import com.intellij.testFramework.runInLoadComponentStateMode
-import com.sun.jna.platform.win32.Winsvc
-import org.jetbrains.builtInWebServer.findIndexFile
-import java.nio.file.Path
-import java.util.logging.Handler
 
-class CodePlugin(private var project: Project):ProjectComponent {
+class CodePlugin(private var project: Project): ProjectComponent {
 
     override fun initComponent() {
 
 //        println1(project.basePath)
 
-
 //
-        project.runInLoadComponentStateMode {
-            init()
-        }
+
 //        project.runWhenProjectOpened(object:Runnable{
 //            override fun run() {
 //                init()
@@ -46,25 +33,40 @@ class CodePlugin(private var project: Project):ProjectComponent {
 
     }
 
+    override fun projectOpened() {
+        super.projectOpened()
+
+            init()
+    }
+
     fun init(){
-        val directory=PsiManager.getInstance(project).findDirectory(project.baseDir)
-        val lib=findDirectoryChildByName(directory!!,"lib")
-        val page=findDirectoryChildByName(lib!!,"page")
-        val list=ArrayList<PsiFile>();
-        findControllerFiles(page!!,list)
+            ApplicationUtil.tryRunReadAction {
 
+                val directory=PsiManager.getInstance(project).findDirectory(project.baseDir)
+                println(project.basePath)
 
-        val manager=FileEditorManager.getInstance(project);
-        manager.run {
-            println1(manager.allEditors.size)
-        }
+                val configFile= findConfigFile(directory!!)
+                Config.init(project.basePath!!,configFile?.text)
 
+            }
 
-        val infos=ArrayList<ControllerInfoModel>()
-        for (psiFile in list) {
-            val info=getControllerInfo(psiFile)
-            infos.add(info)
-        }
+//        val lib=findDirectoryChildByName(directory!!,"lib")
+//        val page=findDirectoryChildByName(lib!!,"page")
+//        val list=ArrayList<PsiFile>();
+//        findControllerFiles(page!!,list)
+
+//
+//        val manager=FileEditorManager.getInstance(project);
+//        manager.run {
+//            println1(manager.allEditors.size)
+//        }
+//
+//
+//        val infos=ArrayList<ControllerInfoModel>()
+//        for (psiFile in list) {
+//            val info=getControllerInfo(psiFile)
+//            infos.add(info)
+//        }
 
 
 
@@ -111,6 +113,17 @@ class CodePlugin(private var project: Project):ProjectComponent {
             } else if(child is PsiFile){
                 if(child.name=="controller.dart"){
                     list.add(child)
+                }
+            }
+        }
+        return null;
+    }
+    //根据name从当前的directory查找需要的directory
+    fun findConfigFile(directory:PsiDirectory):PsiFile?{
+        for (child in directory.children) {
+            if(child is PsiFile){
+                if(child.name==".flutter_mvc.json"){
+                    return child
                 }
             }
         }

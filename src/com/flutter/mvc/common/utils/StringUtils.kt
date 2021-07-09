@@ -9,6 +9,30 @@ import java.util.regex.Pattern
 class StringUtils {
     companion object{
 
+        fun initialLower(name:String):String{
+            val sb=java.lang.StringBuilder()
+            for( i in 0 until name.length) {
+                if(i==0) {
+                    sb.append(name[0].toLowerCase())
+                }else{
+                    sb.append(name[i])
+                }
+            }
+            return sb.toString();
+        }
+
+        fun initialUpper(name:String):String{
+            val sb=java.lang.StringBuilder()
+            for( i in 0 until name.length) {
+                if(i==0) {
+                    sb.append(name[0].toUpperCase())
+                }else{
+                    sb.append(name[i])
+                }
+            }
+            return sb.toString();
+        }
+
         ///汉字转换拼音
         fun chineseToPinyinAndFirstLetter(chinese:String):Array<String>{
             val chineseArray=chinese.toCharArray()
@@ -61,6 +85,7 @@ class StringUtils {
 
         //"_"转换大写
         fun _toLowName(name:String):String{
+            if(name=="") return ""
             val sb=java.lang.StringBuilder()
             if(name.contains("_")){
                 val names=name.split("_")
@@ -80,5 +105,15 @@ class StringUtils {
             }
             return sb.toString()
         }
+
+        fun removeEnd(a: String, s: String): String {
+            if(!a.endsWith(s)){
+                return a
+            }
+           return a.substring(0,a.length-s.length)
+
+        }
+
+
     }
 }

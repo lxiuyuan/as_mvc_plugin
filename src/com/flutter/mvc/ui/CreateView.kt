@@ -101,11 +101,11 @@ class CreateView {
     }
 
 
-    fun createContent(){
+    private fun createContent(){
         contentPane= JPanel(BorderLayout(1,6))
     }
 
-    fun createTextField(){
+    private fun createTextField(){
         txtName= JEditorPane()
         txtName!!.background= Color.WHITE
         txtName!!.setSize(WIDTH,40)
@@ -114,7 +114,7 @@ class CreateView {
         contentPane.add(txtName!!, BorderLayout.CENTER)
     }
 
-    fun createDescription(){
+    private fun createDescription(){
         val descriptionPanel=JPanel(BorderLayout(0,3))
         contentPane.add(descriptionPanel,BorderLayout.SOUTH)
         txtDescription= JEditorPane()
@@ -133,12 +133,13 @@ class CreateView {
 
     }
 
-    fun createTextLabel(){
+    private fun createTextLabel(){
         val label= JLabel("请输入昵称")
         label.setSize(WIDTH,30)
         label.horizontalAlignment= JLabel.CENTER
         label.verticalAlignment= JLabel.CENTER
         contentPane.add(label, BorderLayout.NORTH)
     }
+
 
 }

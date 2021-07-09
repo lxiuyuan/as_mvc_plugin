@@ -2,6 +2,8 @@ package com.flutter.mvc.action.list
 
 import com.flutter.mvc.ui.ListControllerViewz
 import com.intellij.openapi.components.PersistentStateComponent
+import com.intellij.openapi.components.State
+import com.intellij.openapi.components.Storage
 import com.intellij.openapi.project.Project
 import com.intellij.openapi.ui.SimpleToolWindowPanel
 import com.intellij.openapi.wm.ToolWindow
@@ -11,13 +13,13 @@ import javax.swing.JLabel
 import javax.swing.JPanel
 import javax.swing.tree.DefaultMutableTreeNode
 
+@State(name = "FlutterMvc", storages = [Storage("\$WORKSPACE_FILE$")])
 class ListControllerView(
         private var project: Project?
 ):PersistentStateComponent<ListControllerViewState> {
 
 
     private var state=ListControllerViewState()
-
 
     fun initToolWindow(toolWindow: ToolWindow) {
         val contentFactory=ContentFactory.SERVICE.getInstance()

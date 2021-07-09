@@ -43,8 +43,8 @@ class OverrideView {
         }
 
         btnRight?.addActionListener {
-            listener.invoke();
             frame.dispose()
+            listener.invoke();
         }
 
         val timeLine=System.currentTimeMillis()

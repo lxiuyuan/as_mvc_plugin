@@ -7,10 +7,11 @@ import com.intellij.openapi.project.Project
 import com.intellij.openapi.wm.ToolWindow
 import com.intellij.openapi.wm.ToolWindowFactory
 
-class ListFactory():ToolWindowFactory,DumbAware {
+class ListFactory:ToolWindowFactory,DumbAware {
     override fun createToolWindowContent(project: Project, toolWindow: ToolWindow) {
         DumbService.getInstance(project).runWhenSmart {
-            (ServiceManager.getService(project,ListControllerView::class.java)).initToolWindow(toolWindow)
+            val service=ServiceManager.getService(project,ListControllerView::class.java)
+            service.initToolWindow(toolWindow)
         }
     }
 }

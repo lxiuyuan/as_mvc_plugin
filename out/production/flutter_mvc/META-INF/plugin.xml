@@ -1,50 +1,76 @@
 <idea-plugin>
-  <id>com.hz.flutter.mvc.plugin</id>
-  <name>flutter mvc</name>
-  <version>1.0</version>
-  <vendor email="424047673@qq.com" url="http://www.baidu.com">djy</vendor>
+    <id>com.hz.flutter.mvc.plugin</id>
+    <name>flutter mvc</name>
+    <version>1.0</version>
+    <vendor email="424047673@qq.com" url="http://www.baidu.com">djy</vendor>
 
-  <description><![CDATA[
+    <description><![CDATA[
       Enter short description sfsfsfsfsfsfsfsfsfsfs your plugin here.<br>
       <em>most HTML tags madfsfsfsy be used</em>
     ]]></description>
 
-  <change-notes><![CDATA[
+    <change-notes><![CDATA[
       Add change notes dfdsfsfhere.<br>
       <em>most HTML tsfsfsdfags may be used</em>
     ]]>
-  </change-notes>
+    </change-notes>
 
-  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
-  <idea-version since-build="173.0"/>
+    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+    <idea-version since-build="173.0"/>
 
-  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
-       on how to target different products -->
-  <depends>com.intellij.modules.platform</depends>
-  <depends>com.intellij.modules.lang</depends>
-  <depends>com.intellij.modules.all</depends>
-  <extensions defaultExtensionNs="com.intellij">
-    <!-- Add your extensions here -->
-  </extensions>
+    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+         on how to target different products -->
+    <depends>com.intellij.modules.platform</depends>
+    <depends>com.intellij.modules.lang</depends>
+    <depends>com.intellij.modules.all</depends>
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+    </extensions>
 
-  <actions>
-    <action id="com.flutter.mvc.action.NewMenuAction" class="com.flutter.mvc.action.NewMenuAction" text="FlutterMvc.ID"
-            icon="/image/wsy.png"
-            description="flutter mvc">
-      <add-to-group group-id="NewGroup" anchor="before" relative-to-action="NewFile"/>
-    </action>
-  </actions>
+    <actions>
+        <action id="com.flutter.mvc.action.NewMenuAction" class="com.flutter.mvc.action.NewMenuAction"
+                text="FlutterMvc.ID"
+                icon="/image/img.png"
+                description="flutter mvc">
+            <add-to-group group-id="NewGroup" anchor="before" relative-to-action="NewFile"/>
+        </action>
 
-<!--  <project-components>-->
-<!--    <component>-->
-<!--      <implementation-class>com.flutter.mvc.action.CodePlugin</implementation-class>-->
-<!--    </component>-->
-<!--  </project-components>-->
 
-  <extensions defaultExtensionNs="com.intellij">
-    <toolWindow icon="/image/wsy.png" id="mvc list" anchor="right" factoryClass="com.flutter.mvc.action.list.ListFactory"/>
-    <projectService serviceImplementation="com.flutter.mvc.action.list.ListControllerView" overrides="false"/>
-  </extensions>
+        <action id="com.flutter.mvc.action.DartAction" class="com.flutter.mvc.action.DartAction" text="Dart"
+                description="332">
+            <keyboard-shortcut keymap="$default" first-keystroke="meta T" second-keystroke="ctrl T"/>
+        </action>
+
+        <action id="com.flutter.mvc.action.HttpAddAction" class="com.flutter.mvc.action.HttpAddAction" text="Dart"
+                description="332">
+            <keyboard-shortcut keymap="$default" first-keystroke="ctrl T" second-keystroke="ctrl Y"/>
+        </action>
+        <action id="com.flutter.mvc.action.JsonToDartAction"
+                icon="/image/img.png"
+                class="com.flutter.mvc.action.JsonToDartAction"
+                text="JsonToDart">
+
+            <add-to-group group-id="NewGroup" anchor="after" relative-to-action="NewFile"/>
+
+        </action>
+    </actions>
+
+    <project-components>
+        <component>
+            <implementation-class>com.flutter.mvc.action.CodePlugin</implementation-class>
+        </component>
+    </project-components>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <toolWindow icon="/image/img.png" id="mvc list" anchor="right"
+                    factoryClass="com.flutter.mvc.action.list.ListFactory"/>
+        <projectService serviceImplementation="com.flutter.mvc.action.list.ListControllerView" overrides="false"/>
+        <projectConfigurable groupId="language" instance="com.flutter.mvc.ui.Config"
+                             id="FlutterMvc" nonDefaultProject="true"/>
+<!--        <applicationService serviceImplementation="com.flutter.mvc.common.MvcSetter"-->
+<!--                            serviceInterface="com.flutter.mvc.common.MvcSetter"/>-->
+
+    </extensions>
 
 
 </idea-plugin>

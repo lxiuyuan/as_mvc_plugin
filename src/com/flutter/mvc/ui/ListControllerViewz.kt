@@ -4,17 +4,15 @@ import com.flutter.mvc.common.manager.RefreshListManager
 import com.flutter.mvc.common.utils.ClassUtils
 import com.flutter.mvc.model.ControllerInfoModel
 import com.flutter.mvc.common.utils.StringUtils
-import com.intellij.diff.actions.impl.OpenInEditorAction
+import com.flutter.mvc.common.widget.RoundPanel
 import com.intellij.ide.actions.OpenFileAction
 import com.intellij.openapi.fileEditor.FileEditorManager
-import com.intellij.openapi.fileEditor.impl.OpenFilesScope
 import com.intellij.openapi.project.Project
-import com.intellij.openapi.vfs.VirtualFile
 import com.intellij.psi.PsiDirectory
 import com.intellij.psi.PsiFile
 import com.intellij.psi.PsiManager
 import com.intellij.openapi.ui.ComboBox
-import org.jdesktop.swingx.JXList
+import common.widget.VFlowLayout
 import java.awt.BorderLayout
 import java.awt.Color
 import java.awt.event.KeyEvent
@@ -33,7 +31,7 @@ class ListControllerViewz(private val project: Project):JPanel() {
     }
 
 
-    private lateinit var jList:JXList
+    private lateinit var jList:JPanel
     private lateinit var jSearchTextField: JTextField
     private lateinit var jAuthorBox:JComboBox<String>
     private lateinit var jRefreshButton:JButton
@@ -58,18 +56,15 @@ class ListControllerViewz(private val project: Project):JPanel() {
             dataControllerInfo.add(info)
         }
 
-        val vectory=Vector<String>()
-
         val addedAuthor=ArrayList<String>()
+        jList.removeAll()
         for (info in dataControllerInfo) {
-            vectory.add("   ${info.name}(${info.description})")
+            jList.add(createItem(info))
             if(!addedAuthor.contains(info.author)){
                 addedAuthor.add(info.author)
                 jAuthorBox.addItem(info.author)
             }
         }
-
-        jList.setListData(vectory)
 
     }
 
@@ -80,6 +75,19 @@ class ListControllerViewz(private val project: Project):JPanel() {
         jAuthorBox.removeAllItems()
         jAuthorBox.addItem("全部")
         init()
+    }
+
+    fun createItem(item: ControllerInfoModel):RoundPanel{
+        val panel=RoundPanel()
+        panel.layout=BorderLayout()
+        panel.add(JLabel("  \n${item.name}(${item.description})\n"),BorderLayout.WEST)
+        panel.add(JLabel(" "),BorderLayout.SOUTH)
+        panel.add(JLabel(" "),BorderLayout.NORTH)
+        panel.setOnClickListener {
+            val file=item.file.virtualFile
+            OpenFileAction.openFile(file,project)
+        }
+        return panel
     }
 
     fun  initListener(){
@@ -118,19 +126,20 @@ class ListControllerViewz(private val project: Project):JPanel() {
 
         }
 
-        jList.addListSelectionListener {
-            val index=jList.selectedIndex
-            if(index<0){
-                return@addListSelectionListener
-            }
-            var file: VirtualFile
-            if(searchedControllerInfo.size>0){
-                file=searchedControllerInfo[index].file.virtualFile
-            }else{
-                file=dataControllerInfo[index].file.virtualFile
-            }
-            OpenFileAction.openFile(file,project)
-        }
+//        jList.addListSelectionListener {
+//            val index=jList.selectedIndex
+//            if(index<0){
+//                return@addListSelectionListener
+//            }
+//            var file: VirtualFile
+//            if(searchedControllerInfo.size>0){
+//                file=searchedControllerInfo[index].file.virtualFile
+//            }else{
+//                file=dataControllerInfo[index].file.virtualFile
+//            }
+//        file=dataControllerInfo[index].file.virtualFile
+//            OpenFileAction.openFile(file,project)
+//        }
     }
 
     fun search(text:String){
@@ -142,7 +151,6 @@ class ListControllerViewz(private val project: Project):JPanel() {
         if(searchedControllerInfo.size==0){
             searchedControllerInfo.addAll(dataControllerInfo)
         }
-        val vectory=Vector<String>()
         val dataInfo=ArrayList<ControllerInfoModel>()
         for (info in searchedControllerInfo) {
             if(text==""){
@@ -160,14 +168,14 @@ class ListControllerViewz(private val project: Project):JPanel() {
 
         contentControllerInfo.clear()
         contentControllerInfo.addAll(searchByAuthor(dataInfo))
-
+        jList.removeAll()
         for (info in contentControllerInfo) {
-            vectory.add("   ${info.name}(${info.description})")
-
+            jList.add(createItem(info))
         }
+        jList.updateUI()
 
 
-        jList.setListData(vectory)
+//        jList.setListData(vectory)
         searchedText=text;
 
     }
@@ -188,7 +196,7 @@ class ListControllerViewz(private val project: Project):JPanel() {
 
     fun addView(){
         layout=BorderLayout()
-        jList=JXList()
+        jList=JPanel(VFlowLayout())
 
         val searchJPanel=JPanel(BorderLayout())
         val  buttonJPanel=JPanel(BorderLayout())
@@ -203,7 +211,7 @@ class ListControllerViewz(private val project: Project):JPanel() {
         searchJPanel.add(jSearchTextField,BorderLayout.CENTER)
         searchJPanel.add(buttonJPanel,BorderLayout.EAST)
 //        createJLabel(panel)
-        add(jList,BorderLayout.CENTER)
+        add(JScrollPane(jList),BorderLayout.CENTER)
         add(searchJPanel,BorderLayout.NORTH)
     }
 
@@ -232,11 +240,19 @@ class ListControllerViewz(private val project: Project):JPanel() {
             if(text.contains("class")){
                 val start=text.indexOf("class")
                 val end=text.indexOf("Controller")
-                var name=text.substring(start+5,end).trim()
-                val para=getClassPara(text,name)
-                name=name.toLowerCase()
-                info.name=name
-                info.para=para
+
+                if(end>0) {
+                    try {
+                        val name = text.substring(start + 5, end).trim()
+//                val para=getClassPara(text,name)
+
+                        info.name = name
+                        info.para = ""
+                    } catch (e: Exception) {
+                        println(text)
+
+                    }
+                }
             }
         }
         return info

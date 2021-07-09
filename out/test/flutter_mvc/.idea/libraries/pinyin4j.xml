@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="pinyin4j">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/pinyin4j.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
