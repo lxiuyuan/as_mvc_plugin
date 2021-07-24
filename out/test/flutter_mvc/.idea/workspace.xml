@@ -2,79 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="290ef6ec-b18d-4b78-b9f5-3bd7f1e5677a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/flutter_idea.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/flutter/mvc/action/DartAction.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/flutter/mvc/action/HttpAddAction.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/flutter/mvc/action/JsonToDartAction.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/flutter/mvc/common/Config.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/flutter/mvc/common/DartFileType.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/flutter/mvc/common/MvcSetterService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/flutter/mvc/common/element/FileElement.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/flutter/mvc/common/element/HttpElement.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/flutter/mvc/common/element/JsonElement.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/flutter/mvc/common/utils/ElementFenUtils.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/flutter/mvc/common/widget/RoundPanel.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/flutter/mvc/common/widget/VFlowLayout.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/flutter/mvc/model/MvcBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/flutter/mvc/p.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/flutter/mvc/ui/Config.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/flutter/mvc/ui/Config.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/flutter/mvc/ui/HttpCreateView.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/flutter/mvc/ui/HttpCreateView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/flutter/mvc/ui/JsonToDartView.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/flutter/mvc/ui/JsonToDartView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/flutter/mvc/ui/NewCreateView.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/flutter/mvc/ui/NewCreateView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/flutter/mvc/ui/RequestItem.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/flutter/mvc/ui/RequestItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/flutter/mvc/ui/RequestView.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/flutter/mvc/ui/RequestView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_mvc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/flutter_mvc.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_mvc.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/flutter_mvc/META-INF/plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/flutter_mvc/META-INF/plugin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/action/CodePlugin.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/action/CodePlugin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/action/NewMenuAction$actionPerformed$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/action/NewMenuAction$actionPerformed$1$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/action/NewMenuAction$actionPerformed$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/action/NewMenuAction$actionPerformed$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/action/NewMenuAction$actionPerformed$directory$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/action/NewMenuAction$actionPerformed$directory$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/action/NewMenuAction$createFile$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/action/NewMenuAction$createFile$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/action/NewMenuAction$createFile$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/action/NewMenuAction$createFile$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/action/NewMenuAction$createFile$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/action/NewMenuAction$createFile$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/action/NewMenuAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/action/NewMenuAction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/action/list/ListControllerComponent$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/action/list/ListControllerComponent$Companion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/action/list/ListControllerComponent.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/action/list/ListControllerComponent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/action/list/ListControllerView$initToolWindow$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/action/list/ListControllerView$initToolWindow$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/action/list/ListControllerView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/action/list/ListControllerView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/action/list/ListFactory$createToolWindowContent$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/action/list/ListFactory$createToolWindowContent$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/action/list/ListFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/action/list/ListFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/common/utils/StringUtils$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/common/utils/StringUtils$Companion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/ui/CreateView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/ui/CreateView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/ui/Left$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/ui/Left$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/ui/Left$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/ui/Left$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/ui/Left.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/ui/ListControllerViewz$initListener$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/ui/ListControllerViewz$initListener$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/ui/ListControllerViewz$initListener$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/ui/ListControllerViewz$initListener$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/ui/ListControllerViewz$initListener$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/ui/ListControllerViewz$initListener$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/ui/ListControllerViewz$initListener$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/ui/ListControllerViewz$initListener$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/ui/ListControllerViewz$initListener$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/ui/ListControllerViewz.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/ui/ListControllerViewz.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/ui/OverrideView$initListener$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/ui/OverrideView$initListener$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/META-INF/plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/META-INF/plugin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/flutter/mvc/action/CodePlugin.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/flutter/mvc/action/CodePlugin.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/flutter/mvc/action/NewMenuAction.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/flutter/mvc/action/NewMenuAction.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/flutter/mvc/action/list/ListControllerView.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/flutter/mvc/action/list/ListControllerView.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/flutter/mvc/action/list/ListFactory.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/flutter/mvc/action/list/ListFactory.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/flutter/mvc/common/element/Element.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/flutter/mvc/common/element/Element.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/flutter/mvc/common/utils/ElementUtils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/flutter/mvc/common/utils/ElementKuoUtils.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/flutter/mvc/common/utils/StringUtils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/flutter/mvc/common/utils/StringUtils.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/flutter/mvc/ui/CreateView.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/flutter/mvc/ui/CreateView.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/flutter/mvc/ui/Left.form" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/flutter/mvc/ui/Left.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/flutter/mvc/ui/ListControllerViewz.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/flutter/mvc/ui/ListControllerViewz.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/flutter/mvc/ui/OverrideView.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/flutter/mvc/ui/OverrideView.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/flutter/mvc/common/element/HttpElement.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/flutter/mvc/common/element/HttpElement.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/flutter/mvc/common/element/JsonElement.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/flutter/mvc/common/element/JsonElement.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

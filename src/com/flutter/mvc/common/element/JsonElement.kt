@@ -102,7 +102,7 @@ class JsonFieldElement(
         } else if (type == "dynamic") {
             "${parent}.${getFieldName()}=json[\"${jsonKey}\"]"
         } else if(type == "String") {
-            "${parent}.${getFieldName()}=json[\"${jsonKey}\"].toString()"
+            "${parent}.${getFieldName()}=json[\"${jsonKey}\"]?.toString()??\"\""
         }else{
             "${parent}.${getFieldName()}=${type}Bean(json[\"${jsonKey}\"])"
         }
@@ -118,7 +118,7 @@ class JsonFieldElement(
         } else if (type == "dynamic") {
             "json[\"${jsonKey}\"]"
         } else if (type == "String") {
-            "json[\"${jsonKey}\"].toString()"
+            "json[\"${jsonKey}\"]?.toString()??\"\""
         } else {
             "${type}(item)"
         }
@@ -160,7 +160,9 @@ class DJsonParse {
             sbGenerate.append(listClass.toGenerate())
         }
         return sbCode.toString()+
-                "\n//-------------解析方法----------------\n\n"+
+                "\n\n//////////////////////////////////////////////////////////////\n"+
+                "\n//----------------------------解析方法-------------------------\n"+
+                "\n/////////////////////////////////////////////////////////////\n\n\n\n"+
                 sbParse.toString()+sbGenerate.toString()
     }
 

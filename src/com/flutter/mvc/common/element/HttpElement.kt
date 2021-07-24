@@ -186,7 +186,7 @@ class HttpElement {
 
                     if (value.toLowerCase().startsWith("@request")) {
                         requestIndex = i
-                    } else if (value.toLowerCase().startsWith("@response")) {
+                    } else if (value.toLowerCase().startsWith("@response")&&!value.toLowerCase().startsWith("@responsedata")) {
                         responseIndex = i
                         if (requestEndIndex == -1 && requestIndex != -1) {
                             requestEndIndex = i
@@ -230,7 +230,6 @@ class HttpElement {
 
         fun elementToCode(element: HttpElement, beanName: String): String {
             val name = element.name
-            println("name:${name}")
             val nameFinish = StringUtils.initialUpper(StringUtils._toLowName(name))
             val sb = StringBuilder();
             if (element.annotation.isNotEmpty())

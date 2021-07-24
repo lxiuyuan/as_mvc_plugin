@@ -3,6 +3,20 @@
   <component name="ChangeListManager">
     <list default="true" id="290ef6ec-b18d-4b78-b9f5-3bd7f1e5677a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flutter_mvc.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/common/element/DJsonParse.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/common/element/DJsonParse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/common/element/HttpElement$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/common/element/HttpElement$Companion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/common/element/HttpElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/common/element/HttpElement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/common/element/JsonClassElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/common/element/JsonClassElement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/common/element/JsonFieldElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/flutter_mvc/com/flutter/mvc/common/element/JsonFieldElement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/flutter_mvc/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/flutter_mvc/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/flutter_mvc/com/flutter/mvc/common/element/DJsonParse.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/flutter_mvc/com/flutter/mvc/common/element/DJsonParse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/flutter_mvc/com/flutter/mvc/common/element/HttpElement$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/flutter_mvc/com/flutter/mvc/common/element/HttpElement$Companion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/flutter_mvc/com/flutter/mvc/common/element/HttpElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/flutter_mvc/com/flutter/mvc/common/element/HttpElement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/flutter_mvc/com/flutter/mvc/common/element/JsonClassElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/flutter_mvc/com/flutter/mvc/common/element/JsonClassElement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/flutter_mvc/com/flutter/mvc/common/element/JsonFieldElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/flutter_mvc/com/flutter/mvc/common/element/JsonFieldElement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/flutter/mvc/common/element/HttpElement.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/flutter/mvc/common/element/HttpElement.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/flutter/mvc/common/element/JsonElement.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/flutter/mvc/common/element/JsonElement.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
